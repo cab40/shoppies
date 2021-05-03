@@ -30,7 +30,7 @@ const App = () => {
 
   const addNominatedMovie = (movie) => {
     const newNominatedList = [...nominated, movie]
-    if (newNominatedList.length < 5) setNominated(newNominatedList);
+    if (newNominatedList.length < 6) setNominated(newNominatedList);
   }
 
   const removeNominatedMovie = (movie) => {
